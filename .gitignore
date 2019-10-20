@@ -4,6 +4,7 @@
 /IDE/NetBeans/**/dist/
 /IDE/NetBeans/**/target/
 /IDE/NetBeans/**/nbproject/*
+/IDE/NetBeans/**/.gradle/
 
 # Files required by NetBeans
 !/IDE/NetBeans/**/nbproject/project.properties

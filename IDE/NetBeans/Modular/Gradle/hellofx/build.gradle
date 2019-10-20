@@ -8,6 +8,18 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    compileOnly "org.openjfx:javafx-base:13:sources"
+    compileOnly "org.openjfx:javafx-controls:13:sources"
+    compileOnly "org.openjfx:javafx-fxml:13:sources"
+    compileOnly "org.openjfx:javafx-graphics:13:sources"
+
+    compileOnly "org.openjfx:javafx-base:13:javadoc"
+    compileOnly "org.openjfx:javafx-controls:13:javadoc"
+    compileOnly "org.openjfx:javafx-fxml:13:javadoc"
+    compileOnly "org.openjfx:javafx-graphics:13:javadoc"
+}
+
 javafx {
     version = "13"
     modules = [ 'javafx.controls', 'javafx.fxml' ]
